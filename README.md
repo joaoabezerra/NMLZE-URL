@@ -1,5 +1,5 @@
 # NMLZE-URL
-wassup guys!!!! i only created this repository for my "NMLZE" (pronounced normalize, fka "NORMAL!ZE") musical project site. just to remember that i'm not going to accept invitations or invite anyone for this repository.
+wassup guys!!!! i only created this repository for my "NMLZE" (pronounced normalize, fka "NORMAL!ZE") musical project site. just to remember that i'm not going to accept invitations or invite anyone for this repository and i will not let anyone edit all files or its own repository data.
 
 [ FOLLOW ME ON ]
 OFFICIAL WEBSITE: https://nmlze.edgeone.dev (i think the site is totally safe lmao)
