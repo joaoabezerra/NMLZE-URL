@@ -1,0 +1,36 @@
+masonry for redirect
+
+<div class="masonry-container">
+    <a href="https://soundcloud.com/nmlzedubs/mantis/s-SmXSmB7FbnJ?si=8806413deb834784927f8880444e83bd&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing" target="_blank" class="masonry-item">
+        <div class="masonry-overlay"><span>LISTEN</span></div>
+        <img src="capa1.jpg" alt="Track 1">
+    </a>
+
+    <a href="URL_DO_INSTAGRAM" target="_blank" class="masonry-item">
+        <div class="masonry-overlay"><span>SOCIAL</span></div>
+        <img src="sua-foto.jpg" alt="Profile">
+    </a>
+
+    <a href="https://soundcloud.com/nmlzedubs" target="_blank" class="masonry-item">
+        <div class="masonry-overlay"><span>PROFILE</span></div>
+        <img src="capa2.jpg" alt="SoundCloud">
+    </a>
+</div>
+
+# "SAMPLE PACKS" SECTION (body)
+
+- add on "nav-links"
+<main>
+        <li><a href="#packs">PACKS</a></li>
+</main>
+<main>
+        <section id="packs" class="PACKS">
+            <h2>PACKS</h2>
+            <p>click the container below to see my newest sample packs!</p>
+            <div class="pack-containerI">
+                <a href="" target="_blank" class="masonry-link">
+                <div class="pack-itemI"><img src="thumbs for my HTML site.png"><h1>PACK VOL. I</h1></div>
+                </a>
+            </div>
+        </section>
+    </main>
