@@ -4,7 +4,5 @@ wassup guys!!!! i only created this repository for my "NMLZE" (pronounced normal
 [ FOLLOW ME ON ]
 OFFICIAL WEBSITE: https://nmlze.edgeone.dev (i think the site is totally safe lmao)
 LINKTREE: https://linktr.ee/NMLZE
-SOUNDCLOUD: https://soundcloud.com/nmlzedubs
-INSTAGRAM: https://instagram.com/nmlzedubs
 
 just to remember that i don't have a X (twitter) or a facebook, spotify and tiktok official page.
