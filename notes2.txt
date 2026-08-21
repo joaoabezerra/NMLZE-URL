@@ -1,0 +1,29 @@
+┌────────────────────────────────────────────────────────┐
+                                  │   CAPÍTULO 1: INTRODUÇÃO À ENGENHARIA DE SOFTWARE     │
+                                  └───────────────────────────┬────────────────────────────┘
+                                                              │
+         ┌───────────────────────────────────┬────────────────┴───────────────────┬──────────────────────────────────┐
+         │                                   │                                    │                                  │
+         ▼                                   ▼                                    ▼                                  ▼
+┌──────────────────┐               ┌──────────────────┐                 ┌──────────────────┐               ┌──────────────────┐
+│ 1. ORIGEM & BASE │               │  2. O SWEBOK     │                 │ 3. ENGENHARIA DA │               │ 4. CRITICIDADE E │
+│    DA ÁREA       │               │ (Guia de Conhec.)│                 │    QUALIDADE     │               │    VALOR        │
+└────────┬─────────┘               └────────┬─────────┘                 └────────┬─────────┘               └────────┬─────────┘
+         │                                   │                                    │                                  │
+  ├── OTAN (1968)                     ├── Requisitos                       ├── Requisitos                      ├── Classificação
+  │   └── Surgimento diante           │   ├── Funcionais ("o quê")         │   ├── Funcionais                  │   de Meyer
+  │       da "Crise do Software"      │   └── Não-Funcionais ("como")      │   └── Não-Funcionais              │   ├── A (Acute / Crítico)
+  │                                   ├── Testes de Software               ├── Testes                         │   ├── B (Business)
+  ├── Não Existe Bala                 │   ├── Manual x Automatizado        │   └── Pirâmide de Testes          │   └── C (Casual)
+  │   de Prata (Brooks, 1987)         │   └── Pirâmide (Unid/Integ/Sist)   │       (Unidade/Integ/Sist)       │
+  │   └── Nenhuma solução             ├── Manutenção & Legado              ├── Manutenção                      ├── Aspectos Econômicos
+  │       resolve tudo                │   ├── Corretiva/Evolutiva/Adapt.   │   ├── Refactoring                 │   ├── Custo vs. Valor
+  │                                   │   └── Sistemas Legados (ex: COBOL) │   └── Sistemas Legados            │   └── Custo de
+  └── Dificuldades                    ├── Processos                    └── Processos                           │       Oportunidade
+      ├── Essenciais (complexidade,   │   ├── Cascata (Sequencial)             ├── Cascata                     │
+      │   conformidade, mudanças)     │   └── Ágil (Manifesto 2001)            └── Ágil (XP, Scrum, Kanban)   └── IA na Prática
+      └── Acidentais (ferramentas,    └── Outras Áreas                                                         ├── Vibe Coding
+          sintaxe, tecnologia)            ├── Gerência de Configuração                                         └── Aceleração sem
+                                          ├── Gerência de Projetos                                                 perder rigor
+                                          ├── Modelos (UML)
+                                          └── Prática Profissional

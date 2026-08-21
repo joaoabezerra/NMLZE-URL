@@ -612,6 +612,7 @@ a:hover { cursor: wait;
   font-weight: bold;
   margin-bottom: 10px;
   text-align: center;
+  size: 6px;
 }
 
 .ANNOUNCEMENTS p2 {
