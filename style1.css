@@ -64,7 +64,7 @@ body {
 }
 
 .nav-links a:hover {
-  color: #bdbdbd;
+  color: #ffb2b2;
 }
 
 .nav-links a:active {
@@ -358,10 +358,15 @@ main {
   color: #f5f5f5;
   text-decoration: none;
   font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .BOOKINGS a:hover {
   text-decoration: underline;
+  color: #bdbdbd;
+  transition: color 0.3s ease;
 }
 
 .container {
@@ -843,4 +848,52 @@ img {
 .masonry-item h1 {
     pointer-events: none;
     cursor: pointer;
+}
+
+.cookie-modal[hidden] {
+  display: none !important;
+  position: fixed;
+  inset: 0;
+  z-index: 11000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000000cc;
+}
+
+.cookie-box {
+  width: min(90%, 420px);
+  padding: 25px;
+  color:#f5f5f5;
+  background: #111111;
+  border: 1px solid #ec00209c;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.cookie-box h2 {
+  color: #ec00209c;
+}
+
+.cookie-box label {
+  display: block;
+  margin: 15px 0;
+}
+
+.cookie-buttons {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.cookie-buttons button {
+  padding: 12px;
+  color: #f5f5f5;
+  background: #111111;
+  border: 1px solid #ec00209c;
+  cursor: pointer;
+}
+
+.cookie-buttons button:hover {
+  color: #000000ad;
+  background: #ec00209c;
 }
