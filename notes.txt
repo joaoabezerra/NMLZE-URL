@@ -34,3 +34,11 @@ masonry for redirect
             </div>
         </section>
     </main>
+
+# MASONRY FOR SHOWS
+
+- add after the new release section
+
+<a href="https://linktr.ee/NMLZE" target="_blank" class="masonry-link">
+                <div class="masonry-item"><img src="SOCIALS THUMBNAIL.png"><h1>[ SOCIALS ]</h1></div>
+            </a>

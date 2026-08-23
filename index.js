@@ -3,7 +3,7 @@ window.onload = function() {
 };
 let link = document.createElement('link');
 link.rel = 'stylesheet';
-link.href = 'CSS styles/style1.css';
+link.href = 'style1.css';
 document.head.appendChild(link);
 
 window.addEventListener('load', () => {

@@ -106,7 +106,7 @@ iframe {
 }
 
 head {
-    background-color:rgb(7, 7, 7);
+    background-color:#000000;
     color: #f5f5f5;
     font-family: "TF Ponetone Expanded", sans-serif;
     font-size:medium;
@@ -132,7 +132,7 @@ header {
 }
 
 .header-logo {
-  width: 100px;
+  width:120px;
   max-width: 34%;
   height: auto;
 
@@ -155,10 +155,8 @@ main {
 }
 
 .ABOUT {
-    background-color: rgb(7, 7, 7);
+    background-color: #0f0f0f59;
     padding: 40px 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
     max-width: 1100px;
     margin: 20px auto;
     font-family:'Courier New', Courier, monospace;
@@ -192,7 +190,7 @@ main {
     height: auto;
     border-radius: 10px;
     flex-shrink: 0;
-    border: 1px solid #333;
+    border: 1px solid #ec00209c;
 }
 
 .about-text {
@@ -245,10 +243,8 @@ main {
 }
 
 .RELEASES {
-  background-color: rgb(7, 7, 7);
+  background-color: #0f0f0f59;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   max-width: 600px;
   margin: 20px auto;
   font-family:'Courier New', Courier, monospace;
@@ -303,42 +299,9 @@ main {
   flex-direction: column;
 }
 
-.btn-soundcloud {
-    background-color: #000000;
-    color: #f5f5f5;
-    text-decoration: #121212;
-    display: inline-flex;
-    margin: 0px auto;
-    justify-content: center;
-    align-items: center;
-    padding: 12px 23px;
-    border-radius: 50px;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bold;
-    font-size: 14px;
-    text-align: center;
-    transition: transform 0.2s ease;
-    gap: 10px;
-    min-width: 200px;
-}
-
-.btn-soundcloud:hover {
-    transform: scale(1.05);
-    background-color: #1b1b1b;
-}
-
-.btn-soundcloud i {
-  margin: 8px 0;
-  font-size: 16px;
-  color: #f5f5f5;
-  font-weight:bold;
-}
-
 .BOOKINGS {
-  background-color: rgb(7, 7, 7);
+  background-color: #0f0f0f59;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   max-width: 600px;
   margin: 20px auto;
   font-family:'Courier New', Courier, monospace;
@@ -379,9 +342,16 @@ main {
 
 .BOOKINGS li {
   margin: 8px 0;
-  font-size: 16px;
+  font-size: 20px;
   color: #f5f5f5;
   font-weight:bold;
+}
+
+.BOOKINGS h1 {
+  margin: 8px 0;
+  font-size: 16px;
+  color: #f5f5f5;
+  font-weight:400;
 }
 
 .BOOKINGS a {
@@ -422,7 +392,7 @@ header .header-logo {
 }
 
 main {
-    background-color: rgb(7, 7, 7);
+    background-color: #0f0f0f59;
     color: #f5f5f5;
     padding: 20px;
     font-family:'Courier New', Courier, monospace;
@@ -439,17 +409,17 @@ main {
 }
 
 body {
-    background-color: #111111;
+    background-color: #0c0c0c;
     margin: 20px;
-    background: linear-gradient(to bottom, #111111, #000000);
-    background-attachment: fixed;
+    background: linear-gradient(to bottom, #0c0c0c, #000000);
+    background-attachment:scroll;
     min-height: 100vh;
     overflow-x: hidden;
     position: relative;
 }
 
 body::before {
-    content: "";
+    content:normal;
     position: fixed;
     top: -50px;
     left: -50px;
@@ -464,125 +434,12 @@ body::before {
 }
 
 .ANNOUNCEMENTS {
-  background-color: rgb(7, 7, 7);
+  background-color: #0f0f0f59;
   padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
   max-width: 600px;
   margin: 20px auto;
   font-family:'Courier New', Courier, monospace;
   text-align: center;
-}
-
-.PACKS {
-  background-color: rgb(7, 7, 7);
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  max-width: 600px;
-  margin: 20px auto;
-  font-family:'Courier New', Courier, monospace;
-  text-align: center;
-}
-
-.PACKS h2 {
-  color: #f5f5f5;
-  font-size: 50px;
-  margin-bottom: 10px;
-  letter-spacing: 2px;
-  font-family:'Courier New', Courier, monospace;
-  letter-spacing: 1px;
-}
-
-.PACKS h2:hover {
-  text-shadow: 2px 0 rgb(41, 41, 41), -2px 0 rgb(68, 68, 68);
-  animation: glitch 0.09s infinite;
-}
-
-.PACKS body { cursor: crosshair; }
-a:hover { cursor: wait;
-}
-
-@keyframes glitch {
-  0% { transform: translate(0); }
-  20% { transform: translate(-2px, 2px); }
-}
-
-.PACKS p {
-  font-weight: bold;
-  margin-bottom: 10px;
-  text-align: center;
-}
-
-.pack-containerI {
-    column-count: 1;
-    column-gap: 30px;
-}
-
-.pack-itemI {
-    display: inline-block;
-    width: 58%;
-    margin-bottom: 15px;
-    border-radius: 10px;
-    overflow: hidden;
-    background: #111;
-    cursor: pointer;
-    border: 1px solid #333;
-    transition: transform 0.3s ease, filter 0.3s ease;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 7px;
-    color: #f5f5f5;
-}
-
-.pack-itemI img {
-    width: 100%;
-    display: block;
-    filter: grayscale(100%);
-    transition: 0.4s;
-}
-
-.pack-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.7);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 2;
-}
-
-.pack-overlay span {
-    color: #f5f5f5;
-    font-family: 'Interstate', sans-serif;
-    font-weight: bold;
-    letter-spacing: 2px;
-    border: 1px solid #141414;
-    padding: 8px 15px;
-    transform: scale(0.8);
-    transition: transform 0.3s ease;
-}
-
-.pack-itemI:hover .masonry-overlay {
-    opacity: 1;
-}
-
-.pack-itemI:hover .masonry-overlay span {
-    transform: scale(1);
-}
-
-.pack-itemI:hover img {
-    transform: scale(1);
-    filter: grayscale(0%) brightness(0.7);
-}
-
-.pack-itemI:hover {
-    transform: scale(1.02);
-    border-color: #00d9ff88;
 }
 
 .ANNOUNCEMENTS h2 {
@@ -633,7 +490,7 @@ a:hover { cursor: wait;
     margin-bottom: 15px;
     border-radius: 10px;
     overflow: hidden;
-    background: #111;
+    background: #111111;
     cursor: pointer;
     border: 1px solid #333;
     transition: transform 0.3s ease, filter 0.3s ease;
@@ -684,13 +541,13 @@ a:hover { cursor: wait;
 }
 
 .masonry-item:hover img {
-    transform: scale(1);
-    filter: grayscale(0%) brightness(0.7);
+    transform: scale(0.5);
+    filter: grayscale(0%) brightness(0.2);
 }
 
 .masonry-item:hover {
     transform: scale(1.02);
-    border-color: #ff008088;
+    border-color: #ec00209c;
 }
 
 .masonry-container {
@@ -761,7 +618,7 @@ a:hover { cursor: wait;
 
 .masonry-item2:hover {
     transform: scale(1.02);
-    border-color: #00fff288;
+    border-color: #ec00209c;
 }
 
 @keyframes tv-noise {
@@ -779,7 +636,9 @@ a:hover { cursor: wait;
 }
 
 footer {
-    background-color: #111111;
+    background-color: #0f0f0f59;
+    background: linear-gradient(to bottom, #0f0f0f59, #000000);
+    background-attachment: fixed;
     color: #f5f5f5;
     text-align: center;
     padding: 10px;
@@ -868,7 +727,7 @@ body {
     display: block;
   }
   body {
-    background-color: #111111;
+    background-color: #0f0f0f59;
   }
 }
 
@@ -890,7 +749,7 @@ img {
 }
 
 ::-webkit-scrollbar {
-    width: 8px;
+    width: 17px;
 }
 ::-webkit-scrollbar-track {
     background: #000000;
@@ -959,7 +818,7 @@ img {
 }
 
 .social-icon:hover {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 .masonry-link {
@@ -982,6 +841,6 @@ img {
 }
 
 .masonry-item h1 {
-    pointer-events: none; 
+    pointer-events: none;
     cursor: pointer;
 }
