@@ -1,8 +1,14 @@
 # NMLZE-URL
-wassup guys!!!! i only created this repository for my "NMLZE" (pronounced normalize, fka "NORMAL!ZE") musical project site. just to remember that i'm not going to accept invitations or invite anyone for this repository and i will not let anyone edit all files or its own repository data.
 
-[ FOLLOW ME ON ]
-OFFICIAL WEBSITE: https://nmlze.edgeone.dev (i think the site is totally safe lmao)
-LINKTREE: https://linktr.ee/NMLZE
+wassup guys!!!! this repository was only created for my **NMLZE** project site (fka **NORMAL!ZE**, pronounced "normalize").
 
-just to remember that i don't have a X (twitter) or a facebook, spotify and tiktok official page.
+> just a quick reminder: i'm not going to accept invitations, i'm not inviting anyone to this repository, and i will not allow anyone to edit the files or the repository data.
+
+## [ SOCIALS ]
+
+[![Website](https://img.shields.io/badge/Website-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://nmlze.edgeone.dev)
+[![Linktree](https://img.shields.io/badge/Linktree-39E09B?style=for-the-badge&logo=linktree&logoColor=white)](https://linktr.ee/NMLZE)
+
+just to remember that i don't have an official X (twitter), facebook, spotify, or tikTok page.
+
+---
